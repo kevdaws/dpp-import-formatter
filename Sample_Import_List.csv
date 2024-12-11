@@ -1,0 +1,3 @@
+MID,First_Name,Last_Name,Country,Address,City,State_Province,Zip_Postal,Email,Phone,Payment_Type,Account_Number,CC_Exp_Date,ACH_Routing_Number,ACH_Nickname,ACH_Checking_Savings,Recurring_type,Recurring_day,Recurring_month,Recurring_amt,Recurring_start,Recurring_end
+6280888814836506,John,Smith,US,2944 Johnson Street,Manassas,Virginia,20109,johnsmith@email.com,9198898928,CC,4111111111111111,01/24,,,,,,,,,
+6280888814836506,David,Malan,US,2035 Meadow View Drive,Manchester,Connecticut,06040,davidmalan@email.com,8604794060,ACH,12345678,,123123123,DavidMalan,Checking,,,,,,
