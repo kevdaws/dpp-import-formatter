@@ -87,7 +87,7 @@ function App() {
             ...deluxeHeaders,
               MID: event.target.value
           })}>
-          {headerResults.length > 0 && headerResults[0].map((header) => (
+          {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
           </select></pre>
 
@@ -98,7 +98,7 @@ function App() {
               ...deluxeHeaders,
               First_Name: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -108,7 +108,7 @@ function App() {
               ...deluxeHeaders,
               Last_Name: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -118,7 +118,7 @@ function App() {
               ...deluxeHeaders,
               Country: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -128,7 +128,7 @@ function App() {
               ...deluxeHeaders,
               Address: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -138,7 +138,7 @@ function App() {
               ...deluxeHeaders,
               City: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -148,7 +148,7 @@ function App() {
               ...deluxeHeaders,
               State_Province: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -158,7 +158,7 @@ function App() {
               ...deluxeHeaders,
               Zip_Postal: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -168,7 +168,7 @@ function App() {
               ...deluxeHeaders,
               Email: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -178,7 +178,7 @@ function App() {
               ...deluxeHeaders,
               Phone: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -188,7 +188,7 @@ function App() {
               ...deluxeHeaders,
               Payment_Type: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -198,7 +198,7 @@ function App() {
               ...deluxeHeaders,
               Account_Number: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -208,7 +208,7 @@ function App() {
               ...deluxeHeaders,
               CC_Exp_Date: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -218,7 +218,7 @@ function App() {
               ...deluxeHeaders,
               ACH_Routing_Number: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -228,7 +228,7 @@ function App() {
               ...deluxeHeaders,
               ACH_Nickname: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -238,7 +238,7 @@ function App() {
               ...deluxeHeaders,
               ACH_Checkings_Savings: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -248,7 +248,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_type: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -258,7 +258,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_day: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -268,7 +268,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_month: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -278,7 +278,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_amt: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -288,7 +288,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_start: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
 
@@ -298,7 +298,7 @@ function App() {
               ...deluxeHeaders,
               Recurring_end: event.target.value
             })}>
-            {headerResults.length > 0 && headerResults[0].map((header) => (
+            {headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
     
