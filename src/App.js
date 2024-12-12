@@ -70,8 +70,8 @@ function App() {
 
     }
 
-  }  
-  
+  } 
+
   return (
     <div className="App-header">
       <input type="file" onChange={handleFileChange} />
@@ -301,8 +301,12 @@ function App() {
             {headerResults.length > 0 && headerResults[0].map((header) => (
               <option key={header.id} value={header.name}>{header.name}</option>))}
             </select></pre>
+    
+            <button>Submit Headers</button>
+    
     </div>}
 
+              
     </div>
   );
 

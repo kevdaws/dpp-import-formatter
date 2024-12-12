@@ -6,7 +6,7 @@ const multer = require('multer');
 
 const app = express();
 
-const upload = multer({ dest: '../uploads/' });
+const upload = multer({ dest: 'uploads/' });
 
 app.use(cors());
 
@@ -32,6 +32,12 @@ app.post('/', upload.single('file'), (req, res) => {
     res.send(headerResults);
 
     })
+})
+
+app.post('/build', (req, res) => {
+    //console.log(res);
+
+    res.send()
 })
 
 const port = 5000;
